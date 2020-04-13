@@ -467,10 +467,10 @@ F 3 "" H 8100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_Clock-rescue:MCP23017-E_SP-dk_Interface-I-O-Expanders U?
+L LED_Clock-rescue:MCP23017-E_SP-dk_Interface-I-O-Expanders U1
 U 1 1 5E559BAD
 P 2400 3200
-AR Path="/5E559BAD" Ref="U?"  Part="1" 
+AR Path="/5E559BAD" Ref="U1"  Part="1" 
 AR Path="/5E4DDBDE/5E559BAD" Ref="U4"  Part="1" 
 F 0 "U4" H 2500 4550 60  0000 C CNN
 F 1 "MCP23017-E_SP" H 2500 4400 60  0000 C CNN
@@ -488,96 +488,6 @@ F 12 "Active" H 2600 4400 60  0001 L CNN "Status"
 	1    2400 3200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2700 3000 3950 3000
-Wire Wire Line
-	3950 3000 3950 2100
-Wire Wire Line
-	2700 2900 3850 2900
-Wire Wire Line
-	3850 2900 3850 1250
-Wire Wire Line
-	3850 1250 4400 1250
-Wire Wire Line
-	4400 1250 4400 2100
-Wire Wire Line
-	4400 2100 4500 2100
-Wire Wire Line
-	2700 2800 3800 2800
-Wire Wire Line
-	3800 2800 3800 1200
-Wire Wire Line
-	3800 1200 4950 1200
-Wire Wire Line
-	4950 1200 4950 2100
-Wire Wire Line
-	4950 2100 5050 2100
-Wire Wire Line
-	2700 2700 3750 2700
-Wire Wire Line
-	3750 2700 3750 1150
-Wire Wire Line
-	3750 1150 5500 1150
-Wire Wire Line
-	5500 1150 5500 2100
-Wire Wire Line
-	5500 2100 5600 2100
-Wire Wire Line
-	2700 2600 3700 2600
-Wire Wire Line
-	3700 2600 3700 1100
-Wire Wire Line
-	3700 1100 6100 1100
-Wire Wire Line
-	6100 1100 6100 2100
-Wire Wire Line
-	6100 2100 6150 2100
-Wire Wire Line
-	3650 2500 3650 1050
-Wire Wire Line
-	3650 1050 6600 1050
-Wire Wire Line
-	6600 1050 6600 2100
-Wire Wire Line
-	6600 2100 6700 2100
-Wire Wire Line
-	2700 2500 3650 2500
-Wire Wire Line
-	2700 2400 3600 2400
-Wire Wire Line
-	3600 2400 3600 1000
-Wire Wire Line
-	3600 1000 7100 1000
-Wire Wire Line
-	7100 1000 7100 2100
-Wire Wire Line
-	7100 2100 7250 2100
-Wire Wire Line
-	2700 2300 3550 2300
-Wire Wire Line
-	3550 2300 3550 950 
-Wire Wire Line
-	3550 950  7700 950 
-Wire Wire Line
-	7700 950  7700 2100
-Wire Wire Line
-	7700 2100 7800 2100
-Text GLabel 8350 2100 3    50   BiDi ~ 0
-HGPB0
-Text GLabel 2700 3800 2    50   BiDi ~ 0
-HGPB0
-Text GLabel 2700 3700 2    50   BiDi ~ 0
-HGPB1
-Text GLabel 8900 2100 3    50   BiDi ~ 0
-HGPB1
-Text GLabel 9450 2100 3    50   BiDi ~ 0
-HGPB2
-Text GLabel 2700 3600 2    50   BiDi ~ 0
-HGPB2
-Text GLabel 2700 3500 2    50   BiDi ~ 0
-HGPB3
-Text GLabel 10000 2100 3    50   BiDi ~ 0
-HGPB3
 Text HLabel 800  1250 0    50   Output ~ 0
 SDA
 Text HLabel 800  1350 0    50   BiDi ~ 0
@@ -600,6 +510,7 @@ U 1 1 5E8FB0A2
 P 3000 1800
 AR Path="/5E4DDAEE/5E8FB0A2" Ref="#PWR?"  Part="1" 
 AR Path="/5E4DDBDE/5E8FB0A2" Ref="#PWR0101"  Part="1" 
+AR Path="/5E8FB0A2" Ref="#PWR0101"  Part="1" 
 F 0 "#PWR0101" H 3000 1550 50  0001 C CNN
 F 1 "GND" H 3005 1627 50  0000 C CNN
 F 2 "" H 3000 1800 50  0001 C CNN
@@ -613,6 +524,7 @@ U 1 1 5E8FB0AE
 P 3000 1900
 AR Path="/5E4DDAEE/5E8FB0AE" Ref="#PWR?"  Part="1" 
 AR Path="/5E4DDBDE/5E8FB0AE" Ref="#PWR0103"  Part="1" 
+AR Path="/5E8FB0AE" Ref="#PWR0103"  Part="1" 
 F 0 "#PWR0103" H 3000 1650 50  0001 C CNN
 F 1 "GND" H 3005 1727 50  0000 C CNN
 F 2 "" H 3000 1900 50  0001 C CNN
@@ -626,6 +538,7 @@ U 1 1 5E8FB0B4
 P 2850 1800
 AR Path="/5E4DDAEE/5E8FB0B4" Ref="R?"  Part="1" 
 AR Path="/5E4DDBDE/5E8FB0B4" Ref="R34"  Part="1" 
+AR Path="/5E8FB0B4" Ref="R34"  Part="1" 
 F 0 "R34" H 2920 1846 50  0000 L CNN
 F 1 "1k" H 2920 1755 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 1800 50  0001 C CNN
@@ -639,6 +552,7 @@ U 1 1 5E8FB0BA
 P 2850 1900
 AR Path="/5E4DDAEE/5E8FB0BA" Ref="R?"  Part="1" 
 AR Path="/5E4DDBDE/5E8FB0BA" Ref="R35"  Part="1" 
+AR Path="/5E8FB0BA" Ref="R35"  Part="1" 
 F 0 "R35" H 2920 1946 50  0000 L CNN
 F 1 "1k" H 2920 1855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 1900 50  0001 C CNN
@@ -652,6 +566,7 @@ U 1 1 5E8FB0C0
 P 2850 2000
 AR Path="/5E4DDAEE/5E8FB0C0" Ref="R?"  Part="1" 
 AR Path="/5E4DDBDE/5E8FB0C0" Ref="R36"  Part="1" 
+AR Path="/5E8FB0C0" Ref="R36"  Part="1" 
 F 0 "R36" H 2920 2046 50  0000 L CNN
 F 1 "1k" H 2920 1955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 2000 50  0001 C CNN
@@ -670,4 +585,52 @@ F 3 "" H 3000 2000 50  0001 C CNN
 	1    3000 2000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2700 3500 3950 3500
+Wire Wire Line
+	3950 3500 3950 2100
+Wire Wire Line
+	2700 3600 4500 3600
+Wire Wire Line
+	4500 3600 4500 2100
+Wire Wire Line
+	2700 3700 5050 3700
+Wire Wire Line
+	5050 3700 5050 2100
+Wire Wire Line
+	2700 3800 5600 3800
+Wire Wire Line
+	5600 3800 5600 2100
+Wire Wire Line
+	2700 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 2100
+Wire Wire Line
+	2700 2400 6700 2400
+Wire Wire Line
+	6700 2400 6700 2100
+Wire Wire Line
+	2700 2500 7250 2500
+Wire Wire Line
+	7250 2500 7250 2100
+Wire Wire Line
+	2700 2600 7800 2600
+Wire Wire Line
+	7800 2600 7800 2100
+Wire Wire Line
+	2700 2700 8350 2700
+Wire Wire Line
+	8350 2700 8350 2100
+Wire Wire Line
+	2700 2800 8900 2800
+Wire Wire Line
+	8900 2800 8900 2100
+Wire Wire Line
+	2700 2900 9450 2900
+Wire Wire Line
+	9450 2900 9450 2100
+Wire Wire Line
+	2700 3000 10000 3000
+Wire Wire Line
+	10000 3000 10000 2100
 $EndSCHEMATC

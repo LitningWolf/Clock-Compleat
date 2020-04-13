@@ -352,7 +352,7 @@ F 3 "" H 4850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Personal:Barreljack U5
+L LED_Clock-rescue:Barreljack-Personal U5
 U 1 1 5E90BB97
 P 5150 7450
 F 0 "U5" H 5150 7769 50  0000 C CNN
@@ -399,7 +399,7 @@ F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 6350 4800 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Personal:JST4pin U6
+L LED_Clock-rescue:JST4pin-Personal U6
 U 1 1 5E96772E
 P 6100 4450
 F 0 "U6" H 6294 4496 50  0000 L CNN
