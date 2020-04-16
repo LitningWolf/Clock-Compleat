@@ -22,7 +22,7 @@ F 1 "Blue" H 4093 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4100 1550 50  0001 C CNN
 F 3 "~" H 4100 1550 50  0001 C CNN
 	1    4100 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R22
@@ -321,7 +321,7 @@ F 1 "Blue" H 4643 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4650 1550 50  0001 C CNN
 F 3 "~" H 4650 1550 50  0001 C CNN
 	1    4650 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D18
@@ -332,7 +332,7 @@ F 1 "Blue" H 5193 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 5200 1550 50  0001 C CNN
 F 3 "~" H 5200 1550 50  0001 C CNN
 	1    5200 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D19
@@ -343,7 +343,7 @@ F 1 "Blue" H 5743 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 5750 1550 50  0001 C CNN
 F 3 "~" H 5750 1550 50  0001 C CNN
 	1    5750 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D20
@@ -354,7 +354,7 @@ F 1 "Blue" H 6293 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 6300 1550 50  0001 C CNN
 F 3 "~" H 6300 1550 50  0001 C CNN
 	1    6300 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D21
@@ -365,7 +365,7 @@ F 1 "Blue" H 6843 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 6850 1550 50  0001 C CNN
 F 3 "~" H 6850 1550 50  0001 C CNN
 	1    6850 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D22
@@ -376,7 +376,7 @@ F 1 "Blue" H 7393 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 7400 1550 50  0001 C CNN
 F 3 "~" H 7400 1550 50  0001 C CNN
 	1    7400 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D23
@@ -387,7 +387,7 @@ F 1 "Blue" H 7943 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 7950 1550 50  0001 C CNN
 F 3 "~" H 7950 1550 50  0001 C CNN
 	1    7950 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D24
@@ -398,7 +398,7 @@ F 1 "Blue" H 8493 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 8500 1550 50  0001 C CNN
 F 3 "~" H 8500 1550 50  0001 C CNN
 	1    8500 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D25
@@ -409,7 +409,7 @@ F 1 "Blue" H 9043 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9050 1550 50  0001 C CNN
 F 3 "~" H 9050 1550 50  0001 C CNN
 	1    9050 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D26
@@ -420,7 +420,7 @@ F 1 "Blue" H 9593 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9600 1550 50  0001 C CNN
 F 3 "~" H 9600 1550 50  0001 C CNN
 	1    9600 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D27
@@ -431,7 +431,7 @@ F 1 "Blue" H 10143 1675 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 10150 1550 50  0001 C CNN
 F 3 "~" H 10150 1550 50  0001 C CNN
 	1    10150 1550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR035

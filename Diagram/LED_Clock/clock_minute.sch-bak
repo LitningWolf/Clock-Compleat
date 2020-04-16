@@ -22,7 +22,7 @@ F 1 "Blue" H 3293 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 3300 1450 50  0001 C CNN
 F 3 "~" H 3300 1450 50  0001 C CNN
 	1    3300 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R7
@@ -222,7 +222,7 @@ F 1 "Blue" H 3843 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 3850 1450 50  0001 C CNN
 F 3 "~" H 3850 1450 50  0001 C CNN
 	1    3850 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D3
@@ -233,7 +233,7 @@ F 1 "Blue" H 4393 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4400 1450 50  0001 C CNN
 F 3 "~" H 4400 1450 50  0001 C CNN
 	1    4400 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D4
@@ -244,7 +244,7 @@ F 1 "Blue" H 4943 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4950 1450 50  0001 C CNN
 F 3 "~" H 4950 1450 50  0001 C CNN
 	1    4950 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D5
@@ -255,7 +255,7 @@ F 1 "Blue" H 5493 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 5500 1450 50  0001 C CNN
 F 3 "~" H 5500 1450 50  0001 C CNN
 	1    5500 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D6
@@ -266,7 +266,7 @@ F 1 "Blue" H 6043 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 6050 1450 50  0001 C CNN
 F 3 "~" H 6050 1450 50  0001 C CNN
 	1    6050 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D7
@@ -277,7 +277,7 @@ F 1 "Blue" H 6593 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 6600 1450 50  0001 C CNN
 F 3 "~" H 6600 1450 50  0001 C CNN
 	1    6600 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D8
@@ -288,7 +288,7 @@ F 1 "Blue" H 7143 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 7150 1450 50  0001 C CNN
 F 3 "~" H 7150 1450 50  0001 C CNN
 	1    7150 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D9
@@ -299,7 +299,7 @@ F 1 "Blue" H 7693 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 7700 1450 50  0001 C CNN
 F 3 "~" H 7700 1450 50  0001 C CNN
 	1    7700 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D10
@@ -310,7 +310,7 @@ F 1 "Blue" H 8243 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 8250 1450 50  0001 C CNN
 F 3 "~" H 8250 1450 50  0001 C CNN
 	1    8250 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D11
@@ -321,7 +321,7 @@ F 1 "Blue" H 8793 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 8800 1450 50  0001 C CNN
 F 3 "~" H 8800 1450 50  0001 C CNN
 	1    8800 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D12
@@ -332,7 +332,7 @@ F 1 "Blue" H 9343 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9350 1450 50  0001 C CNN
 F 3 "~" H 9350 1450 50  0001 C CNN
 	1    9350 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR014
@@ -415,7 +415,7 @@ F 1 "Blue" H 9893 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9900 1450 50  0001 C CNN
 F 3 "~" H 9900 1450 50  0001 C CNN
 	1    9900 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D14
@@ -426,7 +426,7 @@ F 1 "Blue" H 10443 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 10450 1450 50  0001 C CNN
 F 3 "~" H 10450 1450 50  0001 C CNN
 	1    10450 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D15
@@ -437,7 +437,7 @@ F 1 "Blue" H 10993 1575 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 11000 1450 50  0001 C CNN
 F 3 "~" H 11000 1450 50  0001 C CNN
 	1    11000 1450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR017
@@ -451,7 +451,7 @@ F 3 "" H 2450 1450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_Clock-rescue:MCP23017-E_SP-dk_Interface-I-O-Expanders U?
+L Personal:MCP23017-Min U?
 U 1 1 5E4E52B0
 P 1850 2750
 AR Path="/5E4E52B0" Ref="U?"  Part="1" 
@@ -696,7 +696,67 @@ Wire Wire Line
 Wire Wire Line
 	3700 2350 3700 2000
 Wire Wire Line
+	3150 2250 3150 2000
+Wire Wire Line
+	2150 2750 5350 2750
+Wire Wire Line
+	5350 2750 5350 2000
+Wire Wire Line
+	2150 2850 5900 2850
+Wire Wire Line
+	5900 2850 5900 2000
+Wire Wire Line
+	2150 2950 6450 2950
+Wire Wire Line
+	6450 2950 6450 2000
+Wire Wire Line
+	2150 3050 7000 3050
+Wire Wire Line
+	7000 3050 7000 2000
+Wire Wire Line
+	2150 3150 7550 3150
+Wire Wire Line
+	7550 3150 7550 2000
+Wire Wire Line
+	2150 3250 8100 3250
+Wire Wire Line
+	8100 3250 8100 2000
+Wire Wire Line
+	2150 3350 8650 3350
+Wire Wire Line
+	8650 3350 8650 2000
+Wire Wire Line
+	2150 1850 2800 1850
+Wire Wire Line
+	2800 1850 2800 2100
+Wire Wire Line
+	2800 2100 9200 2100
+Wire Wire Line
+	9200 2100 9200 2000
+Wire Wire Line
+	2750 1950 2750 2150
+Wire Wire Line
+	2750 2150 9750 2150
+Wire Wire Line
+	9750 2150 9750 2000
+Wire Wire Line
+	2150 1950 2750 1950
+Wire Wire Line
+	2150 2050 2700 2050
+Wire Wire Line
+	2700 2050 2700 2200
+Wire Wire Line
+	2700 2200 10300 2200
+Wire Wire Line
+	10300 2200 10300 2000
+Wire Wire Line
 	2150 2250 3150 2250
 Wire Wire Line
-	3150 2250 3150 2000
+	2150 2150 2650 2150
+Wire Wire Line
+	2650 2150 2650 2300
+Wire Wire Line
+	2650 2300 10850 2300
+Wire Wire Line
+	10850 2300 10850 2000
 $EndSCHEMATC
