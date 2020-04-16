@@ -443,4 +443,92 @@ Wire Wire Line
 	5650 5100 5550 5100
 Wire Wire Line
 	5450 5300 5950 5300
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E98A51C
+P 7200 5100
+F 0 "H2" H 7300 5149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7300 5058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7200 5100 50  0001 C CNN
+F 3 "~" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5E98BC5C
+P 7200 4600
+F 0 "H1" H 7300 4649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7300 4558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7200 4600 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5E98C298
+P 7200 5600
+F 0 "H3" H 7300 5649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7300 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7200 5600 50  0001 C CNN
+F 3 "~" H 7200 5600 50  0001 C CNN
+	1    7200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5E98CAE0
+P 7200 6100
+F 0 "H4" H 7300 6149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7300 6058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7200 6100 50  0001 C CNN
+F 3 "~" H 7200 6100 50  0001 C CNN
+	1    7200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E990D8F
+P 7200 4700
+F 0 "#PWR0108" H 7200 4450 50  0001 C CNN
+F 1 "GND" V 7205 4572 50  0000 R CNN
+F 2 "" H 7200 4700 50  0001 C CNN
+F 3 "" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E993FEE
+P 7200 5200
+F 0 "#PWR0109" H 7200 4950 50  0001 C CNN
+F 1 "GND" V 7205 5072 50  0000 R CNN
+F 2 "" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E994521
+P 7200 6200
+F 0 "#PWR0110" H 7200 5950 50  0001 C CNN
+F 1 "GND" V 7205 6072 50  0000 R CNN
+F 2 "" H 7200 6200 50  0001 C CNN
+F 3 "" H 7200 6200 50  0001 C CNN
+	1    7200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E994871
+P 7200 5700
+F 0 "#PWR0111" H 7200 5450 50  0001 C CNN
+F 1 "GND" V 7205 5572 50  0000 R CNN
+F 2 "" H 7200 5700 50  0001 C CNN
+F 3 "" H 7200 5700 50  0001 C CNN
+	1    7200 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
